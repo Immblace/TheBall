@@ -17,7 +17,10 @@ public class Platform : MonoBehaviour
 
     private void Update()
     {
+        //mobile control
         SwipeMove(); 
+
+        //pc control
         //MoveMouse(); 
     }
 

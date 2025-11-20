@@ -1,3 +1,4 @@
+using System;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
@@ -5,11 +6,13 @@ public class BrickSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject BrickPrefab;
     [SerializeField] private Transform startBrickPos;
+    public static event Action win;
     private Vector3 copyStartPos;
     private int rows = 4;
     private int colums = 11;
     private float intervalX = 0.3f;
     private float intervalY = 0.6f;
+    private bool switcher = true;
 
 
     private void Start()
@@ -28,6 +31,15 @@ public class BrickSpawner : MonoBehaviour
         Ball.gameover -= DeleteAllBricks;
     }
 
+    private void Update()
+    {
+        if (transform.childCount < 1 && switcher)
+        {
+            switcher = false;
+            win?.Invoke();
+        }
+    }
+
     private void SpawnBricks()
     {
         for (int i = 0; i < rows; i++)
@@ -43,6 +55,8 @@ public class BrickSpawner : MonoBehaviour
 
     private void DeleteAllBricks()
     {
+        switcher = false;
+
         if (transform.childCount > 0)
         {
             foreach (Transform brick in transform)

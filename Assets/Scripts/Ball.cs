@@ -18,7 +18,19 @@ public class Ball : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.linearVelocity = rb.linearVelocity.normalized * speed;
+        Vector2 v = rb.linearVelocity.normalized;
+
+        if (MathF.Abs(v.x) < 0.25f)
+        {
+            v.x = MathF.Sign(v.x) * 0.25f;
+        }
+
+        if (MathF.Abs(v.y) < 0.25f)
+        {
+            v.y = MathF.Sign(v.y) * 0.25f;
+        }
+
+        rb.linearVelocity = v.normalized * speed;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
