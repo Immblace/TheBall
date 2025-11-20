@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Metanich\\Desktop\\UnityGames\\TheBall\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77F40F75-E6AF-5BC0-4DD7-659EA2F2C2C2}|Assembly-CSharp.csproj|C:\\Users\\Metanich\\Desktop\\UnityGames\\TheBall\\assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77F40F75-E6AF-5BC0-4DD7-659EA2F2C2C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77F40F75-E6AF-5BC0-4DD7-659EA2F2C2C2}|Assembly-CSharp.csproj|C:\\Users\\Metanich\\Desktop\\UnityGames\\TheBall\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77F40F75-E6AF-5BC0-4DD7-659EA2F2C2C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77F40F75-E6AF-5BC0-4DD7-659EA2F2C2C2}|Assembly-CSharp.csproj|C:\\Users\\Metanich\\Desktop\\UnityGames\\TheBall\\assets\\scripts\\brickspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77F40F75-E6AF-5BC0-4DD7-659EA2F2C2C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\brickspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77F40F75-E6AF-5BC0-4DD7-659EA2F2C2C2}|Assembly-CSharp.csproj|C:\\Users\\Metanich\\Desktop\\UnityGames\\TheBall\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77F40F75-E6AF-5BC0-4DD7-659EA2F2C2C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77F40F75-E6AF-5BC0-4DD7-659EA2F2C2C2}|Assembly-CSharp.csproj|C:\\Users\\Metanich\\Desktop\\UnityGames\\TheBall\\assets\\scripts\\brick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77F40F75-E6AF-5BC0-4DD7-659EA2F2C2C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\brick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77F40F75-E6AF-5BC0-4DD7-659EA2F2C2C2}|Assembly-CSharp.csproj|C:\\Users\\Metanich\\Desktop\\UnityGames\\TheBall\\assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77F40F75-E6AF-5BC0-4DD7-659EA2F2C2C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77F40F75-E6AF-5BC0-4DD7-659EA2F2C2C2}|Assembly-CSharp.csproj|c:\\users\\metanich\\desktop\\unitygames\\theball\\assets\\scripts\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77F40F75-E6AF-5BC0-4DD7-659EA2F2C2C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77F40F75-E6AF-5BC0-4DD7-659EA2F2C2C2}|Assembly-CSharp.csproj|C:\\Users\\Metanich\\Desktop\\UnityGames\\TheBall\\assets\\scripts\\brick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77F40F75-E6AF-5BC0-4DD7-659EA2F2C2C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\brick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77F40F75-E6AF-5BC0-4DD7-659EA2F2C2C2}|Assembly-CSharp.csproj|C:\\Users\\Metanich\\Desktop\\UnityGames\\TheBall\\assets\\scripts\\idamagable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,24 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\Metanich\\Desktop\\UnityGames\\TheBall\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\Metanich\\Desktop\\UnityGames\\TheBall\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T10:23:19.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Brick.cs",
               "DocumentMoniker": "C:\\Users\\Metanich\\Desktop\\UnityGames\\TheBall\\Assets\\Scripts\\Brick.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Brick.cs",
@@ -82,14 +82,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\BrickSpawner.cs",
               "ToolTip": "C:\\Users\\Metanich\\Desktop\\UnityGames\\TheBall\\Assets\\Scripts\\BrickSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\BrickSpawner.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAB4AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T13:02:35.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Platform.cs",
               "DocumentMoniker": "C:\\Users\\Metanich\\Desktop\\UnityGames\\TheBall\\Assets\\Scripts\\Platform.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Platform.cs",
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Ball.cs",
               "DocumentMoniker": "C:\\Users\\Metanich\\Desktop\\UnityGames\\TheBall\\Assets\\Scripts\\Ball.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ball.cs",

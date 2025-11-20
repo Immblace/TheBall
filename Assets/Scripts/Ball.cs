@@ -18,6 +18,11 @@ public class Ball : MonoBehaviour
 
     private void FixedUpdate()
     {
+        BallMovement();
+    }
+
+    private void BallMovement()
+    {
         Vector2 v = rb.linearVelocity.normalized;
 
         if (MathF.Abs(v.x) < 0.25f)
